@@ -14,9 +14,9 @@
 }
 
 /* col */
-col.{
+.col {
     float: left;
-    width: calc((100% - 40px) / 3);
+    width: calc(100% / 3);
 
 }
 
@@ -28,6 +28,7 @@ col.{
  }
 
 .card {
+    height: 110px;
     background-color: #100e17;
     color: white;
 }
@@ -40,3 +41,7 @@ img {
     max-height: 110px;
     float: left;
 }
+
+/* .card-info {
+    margin-left: 15px;
+} */
