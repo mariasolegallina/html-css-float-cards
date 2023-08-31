@@ -22,10 +22,9 @@ html {
     font-size: 30px;
 }
 
-/* intro */
-.intro {
+.paragraph {
     margin: 0 10px;
-    padding: 25px 0 35px 0;
+    padding: 25px 0 50px 0;
     text-align: center;
     font-size: 20px;
     color: #383b41;
@@ -35,7 +34,6 @@ html {
 .col {
     float: left;
     width: calc(100% / 3);
-
 }
 
 /* card */
@@ -49,7 +47,7 @@ html {
     height: 110px;
     background-color: #100e17;
     color: white;
-    margin: 10px;
+    margin: 0 10px 50px 10px;
 }
 
 a {
@@ -64,4 +62,24 @@ a {
 .card-info {
     margin-left: 120px;
     padding: 20px;
+}
+
+.card-info h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card-info div {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* footer */
+footer {
+    background-color: #222222;
+    padding-bottom: 30px;
+}
+
+.footer-text {
+    color: #bbc1c6;
 }
