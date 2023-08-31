@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+html {
+    font-family: Fredoka, Arial, Helvetica, sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,12 +11,24 @@
 }
 
 .container {
-    max-width: 750px;
+    max-width: 1220px;
     margin: 0 auto;
 }
 
 .page-title {
+    padding: 35px 0;
+    text-align: center;
     color: #e5316f;
+    font-size: 30px;
+}
+
+/* intro */
+.intro {
+    margin: 0 10px;
+    padding: 25px 0 35px 0;
+    text-align: center;
+    font-size: 20px;
+    color: #383b41;
 }
 
 /* col */
@@ -31,17 +49,19 @@
     height: 110px;
     background-color: #100e17;
     color: white;
+    margin: 10px;
 }
 
 a {
     color: #46adde;
 }
 
-img {
+.card img {
     max-height: 110px;
     float: left;
 }
 
-/* .card-info {
-    margin-left: 15px;
-} */
+.card-info {
+    margin-left: 120px;
+    padding: 20px;
+}
