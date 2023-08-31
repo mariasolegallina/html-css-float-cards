@@ -4,3 +4,34 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.page-title {
+    color: #e5316f;
+}
+
+/* card */
+ .card::after {
+    content: "";
+    display: table;
+    clear: both;
+
+ }
+
+.card {
+    background-color: #100e17;
+    color: white;
+}
+
+a {
+    color: #46adde;
+}
+
+img {
+    max-height: 110px;
+    float: left;
+    margin-right: 15px;
+}
